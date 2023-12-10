@@ -80,7 +80,7 @@ h1.title,h2.title {margin:0;line-height:1.6;}
 .comment-children{margin:30px 0 0 50px}
 .comment-author cite{font-weight:bold;font-style:normal;}
 .comment-author .says,.comment-author .avatar{display:none}
-input,textarea{border-radius:4px;border:1px solid var(--gray-color);display:block;font-size:0.9em;margin:0 0 10px;padding:10px;}
+input,textarea{border-radius:4px;border:1px solid var(--gray-color);display:block;font-size:0.9em;margin:0 0 10px;padding:10px;max-width:calc(100% - 25px);}
 button[type="submit"]{border:none;font-size:0.9em;border-radius:4px;padding:10px 16px;background:#ccc;}
 button[type="submit"]:hover{cursor:pointer;opacity:.7;}
 #search input{display:inline-block;margin-right: 5px;}
