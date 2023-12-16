@@ -6,24 +6,6 @@
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php $this->need('header.php'); ?>
-<?php if($this->is('archive')){ ?>
-<h1 class="title"><?php $this->archiveTitle(['category' => _t('%s'),'search' => _t('搜索结果：%s'),'tag' => _t('标签：%s'),'author' => _t('作者：%s')], '', ''); ?></h1>
-<span><?php echo $this->getDescription(); ?></span>
-<p>
-<?php if ($this->have()): ?>
-<ul class="posts">
-<?php while ($this->next()): ?>
-<li>
-<span><i><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date(); ?></time></i></span>
-<a href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
-</li>
-<?php endwhile; ?>
-</ul>
-<?php else: ?>
-暂无内容
-<?php endif; ?>
-</p>
-<?php } else { ?>
 <h1 class="title"><?php $this->title() ?></h1>
 <p>
 <?php $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);
@@ -45,5 +27,4 @@ $output .= '</ul>';
 echo $output;
 ?>
 </p>
-<?php } ?>
 <?php $this->need('footer.php'); ?>
