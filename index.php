@@ -1,11 +1,11 @@
 <?php
 /**
- * Paper，一页纸，一片让博主可写可绘的极简创作空间。本主题为极简主题，禅定黄+静思蓝暗黑配色，无 JS、CSS 文件载入，对代码极简优化。主题支持自定义背景、自定义菜单，保留搜索及评论功能；内置文章归档模板；已作中文字体优化，内置3种字体方案可选。主题仅9个文件共49kb。<br/>
+ * Paper，一页纸，一片让博主可写可绘的极简创作空间。本主题为极简主题，禅定黄+静思蓝暗黑配色，无 JS、CSS 文件载入，对代码极简优化。主题支持自定义背景、自定义菜单，保留搜索及评论功能；内置文章归档模板；已作中文字体优化，内置3种字体方案可选。主题仅9个文件约50kb。<br/>
  * 发布页：<a href="https://yayu.net/projects/typecho-paper" target="_blank">https://yayu.net/projects/typecho-paper</a>
  *
  * @package Paper
  * @author Jeff Chen
- * @version 1.0
+ * @version 1.0.3
  * @link https://yayu.net/
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
